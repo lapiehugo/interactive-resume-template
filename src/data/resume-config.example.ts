@@ -81,7 +81,7 @@ export const resumeConfig: ResumeConfig = {
       role: { fr: 'Opérateur de saisie' },
       period: { fr: '2025' },
       description: { fr: 'Saisie et traitement de données avec rigueur et précision.' },
-      techs: [], // Ajouté pour corriger l'erreur de build
+      techs: [],
       details: {
         context: { fr: 'Traitement de flux documentaires.' },
         tasks: { fr: [
