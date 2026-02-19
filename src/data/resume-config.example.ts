@@ -81,6 +81,7 @@ export const resumeConfig: ResumeConfig = {
       role: { fr: 'Opérateur de saisie' },
       period: { fr: '2025' },
       description: { fr: 'Saisie et traitement de données avec rigueur et précision.' },
+      techs: [], // Ajouté pour corriger l'erreur de build
       details: {
         context: { fr: 'Traitement de flux documentaires.' },
         tasks: { fr: [
@@ -116,94 +117,4 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'Alternance' },
       period: { fr: '2021' },
       description: { fr: 'Maintenance de boutiques e-commerce et support réseau.' },
-      techs: ['PrestaShop', 'SEO'],
-      details: {
-        context: { fr: 'Gestion technique d\'un parc multi-boutiques.' },
-        tasks: { fr: [
-          'Gestion du CMS PrestaShop multi-boutiques',
-          'Développement et correction de bugs e-commerce',
-          'Gestion du référencement naturel (SEO)',
-          'Support client technique',
-        ] },
-        env: { fr: 'PrestaShop / Infrastructure réseau locale' },
-      },
-    },
-    {
-      id: 'axelerance',
-      company: { fr: 'Axelerance' },
-      role: { fr: 'Développeur web' },
-      type: { fr: 'Alternance' },
-      period: { fr: '2020' },
-      description: { fr: 'Développement de solutions web basées sur WordPress.' },
-      techs: ['WordPress', 'Plesk'],
-      details: {
-        context: { fr: 'Développement de projets web clients.' },
-        tasks: { fr: [
-          'Développement de sites WordPress sur mesure',
-          'Gestion de serveurs via Plesk',
-        ] },
-        env: { fr: 'WordPress / PHP / Plesk' },
-      },
-    },
-  ],
-  education: [
-    {
-      school: { fr: 'MyDigital School (Caen)' },
-      degree: { fr: 'Bachelor Développeur web' },
-      period: '2020 - 2021',
-    },
-    {
-      school: { fr: 'Julliot de la Morandière (Granville)' },
-      degree: { fr: 'BTS Systèmes numériques' },
-      period: '2018 - 2020',
-      specialty: { fr: 'C++, Linux, VmWare, VirtualBox' },
-    },
-  ],
-  projects: [
-    {
-      id: 'lab-it',
-      title: { fr: 'Lab Windows Server / Réseau' },
-      description: { fr: 'Simulation de réseau d\'entreprise : Active Directory, GPO, DHCP, DNS et pare-feu pfSense avec automatisation PowerShell.' },
-      techs: ['Windows Server', 'Active Directory', 'pfSense', 'PowerShell'],
-    },
-  ],
-  hobbies: [
-    {
-      title: { fr: 'High-tech' },
-      details: [{ fr: 'Innovation, nouvelles technologies, objets connectés, photo' }],
-    },
-    {
-      title: { fr: 'Musique' },
-      details: [{ fr: 'Rock, Electro, Trap' }],
-    },
-    {
-      title: { fr: 'Automobile' },
-      details: [{ fr: 'Électronique embarquée, conduite autonome, concept cars' }],
-    },
-  ],
-  theme: {
-    preset: 'slate',
-  },
-  labels: {
-    sections: {
-      contact: { fr: 'CONTACT' },
-      skills: { fr: 'COMPÉTENCES' },
-      experience: { fr: 'PARCOURS PROFESSIONNEL' },
-      education: { fr: 'FORMATION' },
-      projects: { fr: 'PROJETS PERSONNELS' },
-      hobbies: { fr: 'CENTRES D\'INTÉRÊT' },
-    },
-    experience: {
-      mainTasks: { fr: 'Missions principales :' },
-      moreTasks: { fr: 'autres missions...' },
-      training: { fr: 'Formations :' },
-      techEnv: { fr: 'Env. technique :' },
-      technologies: { fr: 'Technologies' },
-    },
-    actions: {
-      clickHint: { fr: 'Cliquez sur les expériences pour voir les détails' },
-      switchTheme: { fr: 'Changer le thème' },
-      downloadPdf: { fr: 'Télécharger le PDF' },
-    },
-  },
-}
+      techs
